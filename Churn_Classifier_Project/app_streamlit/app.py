@@ -14,7 +14,7 @@ st.markdown('Enter customer information to predict churn')
 def predict_churn(age, gender, tenure, usage_frequency, support_calls, payment_delay, contract_length,
                   total_spend, last_interaction, subscription_type):
     # Load the saved model
-    with open('../models/trained_model_01_logreg.pkl', 'rb') as f:
+    with open('../models/FINAL_trained_model_02_DecisionTreeClass.pkl', 'rb') as f:
         model = pickle.load(f)
 
     # Create a DataFrame with the input data
