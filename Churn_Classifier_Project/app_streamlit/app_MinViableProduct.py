@@ -7,6 +7,7 @@ import pickle
 
 # Title of the app
 st.title('Customer Churn Predictor')
+
 st.markdown('Enter customer information to predict churn')
 
 
