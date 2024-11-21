@@ -58,7 +58,7 @@ if uploaded_file:
                 st.write("Potential Savings:")
                 churn_data = data[data['Churn_Prediction']=='Churn']
                 churn_total_value = churn_data['total_spend'].sum()*0.9 # 90% precision in testing
-                st.write(f'The total value of predicted churn clients, taking into account a 10% margin of error, is: £{churn_total_value:.2f}')
+                st.write(f'The total value of predicted churn clients, taking into account a 10% margin of error, is £{churn_total_value:.2f}')
 
                 # user can download csv of predictions and see a preview
                 csv = data.to_csv(index=False)
