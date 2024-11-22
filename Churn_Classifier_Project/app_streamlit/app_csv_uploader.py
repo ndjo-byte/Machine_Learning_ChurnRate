@@ -7,7 +7,7 @@ import pickle
 
 
 # Titles
-st.markdown('<h1 style="text-align: left; color: #2c3e50;">Customer Churn Predictor</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: left; color: #2c3e50;">AI Customer Churn Predictor</h1>', unsafe_allow_html=True)
 st.markdown('<h3 style="text-align: left; color: #7f8c8d;">Enter customer data and get predictions</h3>', unsafe_allow_html=True)
 
 
